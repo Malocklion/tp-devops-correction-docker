@@ -24,7 +24,7 @@ jobs:
         run: |
           mvn -B verify sonar:sonar \
           -Dsonar.projectKey=Malocklion_tp-devops-correction-docker \
-          -Dsonar.organization=malock \
+          -Dsonar.organization=malocklion \
           -Dsonar.host.url=https://sonarcloud.io \
           -Dsonar.token=${{ secrets.SONAR_TOKEN }} \
           --file ./simple-api/pom.xml
