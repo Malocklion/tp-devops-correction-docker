@@ -43,7 +43,7 @@ jobs:
           --file ./simple-api/pom.xml
 
   push-docker-backend:
-    needs: test-backend
+    needs: sonar-analysis
     runs-on: ubuntu-24.04
     steps:
       - name: Checkout code
@@ -58,7 +58,7 @@ jobs:
           push: ${{ github.ref == 'refs/heads/main' }}
 
   push-docker-database:
-    needs: test-backend
+    needs: sonar-analysis
     runs-on: ubuntu-24.04
     steps:
       - name: Checkout code
@@ -73,7 +73,7 @@ jobs:
           push: ${{ github.ref == 'refs/heads/main' }}
 
   push-docker-httpd:
-    needs: test-backend
+    needs: sonar-analysis
     runs-on: ubuntu-24.04
     steps:
       - name: Checkout code
