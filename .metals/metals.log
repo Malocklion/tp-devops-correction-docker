@@ -79,3 +79,6 @@ WARNING: Unmatched cancel notification for request id 11
 2026.04.16 16:35:30 INFO  no build target found for C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker\simple-api\src\main\java\fr\takima\training\simpleapi\SimpleApiApplication.java. Using fallback presentation compiler.
 2026.04.16 16:35:31 INFO  no build target found for C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker\simple-api\src\main\java\fr\takima\training\simpleapi\SimpleApiApplication.java. Using fallback presentation compiler.
 2026.04.16 16:35:31 INFO  no build target found for C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker\simple-api\src\main\java\fr\takima\training\simpleapi\SimpleApiApplication.java. Using fallback presentation compiler.
+2026.04.16 16:37:27 INFO  no build target found for C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker\simple-api\src\main\java\fr\takima\training\simpleapi\SimpleApiApplication.java. Using fallback presentation compiler.
+avr. 16, 2026 4:37:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 81
