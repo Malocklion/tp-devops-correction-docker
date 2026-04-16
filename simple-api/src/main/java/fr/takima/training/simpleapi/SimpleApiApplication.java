@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SimpleApiApplication {
 
 	public static void main(String[] args) {
+		Ceci est un bug volontaire pour le rollback;
 		SpringApplication.run(SimpleApiApplication.class, args);
 	}
 
