@@ -41,9 +41,9 @@ jobs:
           -Dsonar.host.url=https://sonarcloud.io \
           -Dsonar.token=${{ secrets.SONAR_TOKEN }} \
           --file ./simple-api/pom.xml
-          
+
   rollback:
-    needs: [test-backend]
+    needs: [test-backend, sonar-analysis]
     if: failure() && github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     steps:
