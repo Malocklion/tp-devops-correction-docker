@@ -33,7 +33,7 @@ jobs:
       - name:  Sonar Analysis
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
-          SONAR_TOKEN: ${{ secrets.S_EN }}   
+          SONAR_TOKEN:    
         run: |
           mvn -B verify sonar:sonar \
           -Dsonar.projectKey=Malocklion_tp-devops-correction-docker \
