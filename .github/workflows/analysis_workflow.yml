@@ -55,5 +55,5 @@ jobs:
         run: |
           git config --global user.email "bot@github.com"
           git config --global user.name "Workflow Bot"
-          git revert HEAD --no-edit
+          git revert -m 1 HEAD --no-edit
           git push origin main
