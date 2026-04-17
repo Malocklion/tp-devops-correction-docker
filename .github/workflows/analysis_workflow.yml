@@ -50,10 +50,21 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          token: ${{ secrets.GITHUB_TOKEN }}
-      - name: Bot Rollback
+
+      - name: Bot Rollback Logic
         run: |
           git config --global user.email "bot@github.com"
           git config --global user.name "Workflow Bot"
+          # On crée le revert localement sur une nouvelle branche
+          git checkout -b fix/auto-rollback
           git revert -m 1 HEAD --no-edit
-          git push origin main
+
+      - name: Create Rollback PR
+        uses: peter-evans/create-pull-request@v5
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: fix/auto-rollback
+          base: main
+          title: "ROLLBACK: Fix main failure"
+          body: "Les tests ont échoué sur main. Cette PR annule le dernier merge automatiquement."
+          delete-branch: true
