@@ -1,0 +1,125 @@
+2026.04.16 16:32:43 INFO  Started: Metals version 1.6.7 in folders 'C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker' for client Visual Studio Code 1.115.0.
+2026.04.16 16:32:43 INFO  Memory monitor started
+2026.04.16 16:32:44 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.04.16 16:32:44 INFO  no build target found for C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker\simple-api\src\main\java\fr\takima\training\simpleapi\SimpleApiApplication.java. Using fallback presentation compiler.
+2026.04.16 16:32:45 INFO  no build target found for C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker\simple-api\src\main\java\fr\takima\training\simpleapi\SimpleApiApplication.java. Using fallback presentation compiler.
+avr. 16, 2026 4:32:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+2026.04.16 16:32:45 INFO  no build target found for C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker\simple-api\src\main\java\fr\takima\training\simpleapi\SimpleApiApplication.java. Using fallback presentation compiler.
+avr. 16, 2026 4:32:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4
+avr. 16, 2026 4:32:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6
+avr. 16, 2026 4:32:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+avr. 16, 2026 4:32:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2026.04.16 16:32:45 INFO  no build target found for C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker\simple-api\src\main\java\fr\takima\training\simpleapi\SimpleApiApplication.java. Using fallback presentation compiler.
+avr. 16, 2026 4:32:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+2026.04.16 16:32:45 INFO  no build target found for C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker\simple-api\src\main\java\fr\takima\training\simpleapi\SimpleApiApplication.java. Using fallback presentation compiler.
+avr. 16, 2026 4:32:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11
+2026.04.16 16:32:45 INFO  no build target found for C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker\simple-api\src\main\java\fr\takima\training\simpleapi\SimpleApiApplication.java. Using fallback presentation compiler.
+2026.04.16 16:32:47 INFO  no build target found for C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker\simple-api\src\main\java\fr\takima\training\simpleapi\SimpleApiApplication.java. Using fallback presentation compiler.
+2026.04.16 16:32:47 INFO  no build target found for C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker\simple-api\src\main\java\fr\takima\training\simpleapi\SimpleApiApplication.java. Using fallback presentation compiler.
+2026.04.16 16:32:47 INFO  no build target found for C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker\simple-api\src\main\java\fr\takima\training\simpleapi\SimpleApiApplication.java. Using fallback presentation compiler.
+2026.04.16 16:34:03 INFO  no build target found for C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker\simple-api\src\main\java\fr\takima\training\simpleapi\SimpleApiApplication.java. Using fallback presentation compiler.
+2026.04.16 16:34:03 INFO  no build target found for C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker\simple-api\src\main\java\fr\takima\training\simpleapi\SimpleApiApplication.java. Using fallback presentation compiler.
+2026.04.16 16:34:19 INFO  no build target found for C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker\simple-api\src\main\java\fr\takima\training\simpleapi\SimpleApiApplication.java. Using fallback presentation compiler.
+2026.04.16 16:34:19 INFO  no build target found for C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker\simple-api\src\main\java\fr\takima\training\simpleapi\SimpleApiApplication.java. Using fallback presentation compiler.
+2026.04.16 16:34:19 INFO  no build target found for C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker\simple-api\src\main\java\fr\takima\training\simpleapi\SimpleApiApplication.java. Using fallback presentation compiler.
+2026.04.16 16:34:19 INFO  no build target found for C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker\simple-api\src\main\java\fr\takima\training\simpleapi\SimpleApiApplication.java. Using fallback presentation compiler.
+2026.04.16 16:34:19 INFO  no build target found for C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker\simple-api\src\main\java\fr\takima\training\simpleapi\SimpleApiApplication.java. Using fallback presentation compiler.
+2026.04.16 16:34:19 INFO  no build target found for C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker\simple-api\src\main\java\fr\takima\training\simpleapi\SimpleApiApplication.java. Using fallback presentation compiler.
+2026.04.16 16:34:20 INFO  no build target found for C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker\simple-api\src\main\java\fr\takima\training\simpleapi\SimpleApiApplication.java. Using fallback presentation compiler.
+2026.04.16 16:34:20 WARN  no build target for: C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker\simple-api\src\main\java\fr\takima\training\simpleapi\SimpleApiApplication.java
+2026.04.16 16:34:20 INFO  no build target found for C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker\simple-api\src\main\java\fr\takima\training\simpleapi\SimpleApiApplication.java. Using fallback presentation compiler.
+2026.04.16 16:34:20 WARN  Running javac-semanticdb failed for file:///C:/Users/maloc/Desktop/DevOpsTP2/tp-devops-correction-docker/simple-api/src/main/java/fr/takima/training/simpleapi/SimpleApiApplication.java. Output:
+
+2026.04.16 16:34:24 INFO  no build target found for C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker\simple-api\src\main\java\fr\takima\training\simpleapi\SimpleApiApplication.java. Using fallback presentation compiler.
+2026.04.16 16:34:25 INFO  no build target found for C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker\simple-api\src\main\java\fr\takima\training\simpleapi\SimpleApiApplication.java. Using fallback presentation compiler.
+2026.04.16 16:34:31 WARN  no build target for: C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker\simple-api\src\main\java\fr\takima\training\simpleapi\SimpleApiApplication.java
+2026.04.16 16:34:31 INFO  no build target found for C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker\simple-api\src\main\java\fr\takima\training\simpleapi\SimpleApiApplication.java. Using fallback presentation compiler.
+2026.04.16 16:34:31 INFO  no build target found for C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker\simple-api\src\main\java\fr\takima\training\simpleapi\SimpleApiApplication.java. Using fallback presentation compiler.
+2026.04.16 16:34:31 INFO  no build target found for C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker\simple-api\src\main\java\fr\takima\training\simpleapi\SimpleApiApplication.java. Using fallback presentation compiler.
+2026.04.16 16:34:31 INFO  Created report: Optional[file:///C:/Users/maloc/Desktop/DevOpsTP2/tp-devops-correction-docker/simple-api/src/main/java/fr/takima/training/simpleapi/SimpleApiApplication.java]
+2026.04.16 16:34:31 INFO  empty definition using pc, found symbol in pc: java/lang/String# (full report at: "C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker\.metals\.reports\metals-full\2026-04-16\r_empty-definition_16-34-31-394.md")
+2026.04.16 16:35:24 INFO  no build target found for C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker\simple-api\src\main\java\fr\takima\training\simpleapi\SimpleApiApplication.java. Using fallback presentation compiler.
+2026.04.16 16:35:24 WARN  no build target for: C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker\simple-api\src\main\java\fr\takima\training\simpleapi\SimpleApiApplication.java
+2026.04.16 16:35:24 INFO  no build target found for C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker\simple-api\src\main\java\fr\takima\training\simpleapi\SimpleApiApplication.java. Using fallback presentation compiler.
+2026.04.16 16:35:24 INFO  no build target found for C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker\simple-api\src\main\java\fr\takima\training\simpleapi\SimpleApiApplication.java. Using fallback presentation compiler.
+2026.04.16 16:35:24 WARN  no build target for: C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker\simple-api\src\main\java\fr\takima\training\simpleapi\SimpleApiApplication.java
+2026.04.16 16:35:24 INFO  no build target found for C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker\simple-api\src\main\java\fr\takima\training\simpleapi\SimpleApiApplication.java. Using fallback presentation compiler.
+2026.04.16 16:35:24 WARN  no build target for: C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker\simple-api\src\main\java\fr\takima\training\simpleapi\SimpleApiApplication.java
+2026.04.16 16:35:24 INFO  no build target found for C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker\simple-api\src\main\java\fr\takima\training\simpleapi\SimpleApiApplication.java. Using fallback presentation compiler.
+2026.04.16 16:35:24 INFO  no build target found for C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker\simple-api\src\main\java\fr\takima\training\simpleapi\SimpleApiApplication.java. Using fallback presentation compiler.
+2026.04.16 16:35:26 INFO  no build target found for C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker\simple-api\src\main\java\fr\takima\training\simpleapi\SimpleApiApplication.java. Using fallback presentation compiler.
+2026.04.16 16:35:26 INFO  no build target found for C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker\simple-api\src\main\java\fr\takima\training\simpleapi\SimpleApiApplication.java. Using fallback presentation compiler.
+2026.04.16 16:35:27 INFO  no build target found for C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker\simple-api\src\main\java\fr\takima\training\simpleapi\SimpleApiApplication.java. Using fallback presentation compiler.
+2026.04.16 16:35:27 INFO  no build target found for C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker\simple-api\src\main\java\fr\takima\training\simpleapi\SimpleApiApplication.java. Using fallback presentation compiler.
+2026.04.16 16:35:27 INFO  no build target found for C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker\simple-api\src\main\java\fr\takima\training\simpleapi\SimpleApiApplication.java. Using fallback presentation compiler.
+2026.04.16 16:35:28 INFO  no build target found for C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker\simple-api\src\main\java\fr\takima\training\simpleapi\SimpleApiApplication.java. Using fallback presentation compiler.
+2026.04.16 16:35:28 INFO  no build target found for C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker\simple-api\src\main\java\fr\takima\training\simpleapi\SimpleApiApplication.java. Using fallback presentation compiler.
+2026.04.16 16:35:28 WARN  no build target for: C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker\simple-api\src\main\java\fr\takima\training\simpleapi\SimpleApiApplication.java
+2026.04.16 16:35:28 INFO  no build target found for C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker\simple-api\src\main\java\fr\takima\training\simpleapi\SimpleApiApplication.java. Using fallback presentation compiler.
+2026.04.16 16:35:28 INFO  Created report: Optional[file:///C:/Users/maloc/Desktop/DevOpsTP2/tp-devops-correction-docker/simple-api/src/main/java/fr/takima/training/simpleapi/SimpleApiApplication.java]
+2026.04.16 16:35:28 INFO  QDox parse error in file:///C:/Users/maloc/Desktop/DevOpsTP2/tp-devops-correction-docker/simple-api/src/main/java/fr/takima/training/simpleapi/SimpleApiApplication.java (full report at: "C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker\.metals\.reports\metals-full\2026-04-16\r_qdox-error_16-35-28-862.md")
+2026.04.16 16:35:28 WARN  Running javac-semanticdb failed for file:///C:/Users/maloc/Desktop/DevOpsTP2/tp-devops-correction-docker/simple-api/src/main/java/fr/takima/training/simpleapi/SimpleApiApplication.java. Output:
+
+2026.04.16 16:35:28 INFO  no build target found for C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker\simple-api\src\main\java\fr\takima\training\simpleapi\SimpleApiApplication.java. Using fallback presentation compiler.
+2026.04.16 16:35:28 INFO  no build target found for C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker\simple-api\src\main\java\fr\takima\training\simpleapi\SimpleApiApplication.java. Using fallback presentation compiler.
+2026.04.16 16:35:28 INFO  no build target found for C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker\simple-api\src\main\java\fr\takima\training\simpleapi\SimpleApiApplication.java. Using fallback presentation compiler.
+2026.04.16 16:35:29 INFO  no build target found for C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker\simple-api\src\main\java\fr\takima\training\simpleapi\SimpleApiApplication.java. Using fallback presentation compiler.
+2026.04.16 16:35:30 WARN  no build target for: C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker\simple-api\src\main\java\fr\takima\training\simpleapi\SimpleApiApplication.java
+2026.04.16 16:35:30 INFO  no build target found for C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker\simple-api\src\main\java\fr\takima\training\simpleapi\SimpleApiApplication.java. Using fallback presentation compiler.
+2026.04.16 16:35:30 WARN  Running javac-semanticdb failed for file:///C:/Users/maloc/Desktop/DevOpsTP2/tp-devops-correction-docker/simple-api/src/main/java/fr/takima/training/simpleapi/SimpleApiApplication.java. Output:
+
+2026.04.16 16:35:30 INFO  no build target found for C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker\simple-api\src\main\java\fr\takima\training\simpleapi\SimpleApiApplication.java. Using fallback presentation compiler.
+2026.04.16 16:35:30 INFO  no build target found for C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker\simple-api\src\main\java\fr\takima\training\simpleapi\SimpleApiApplication.java. Using fallback presentation compiler.
+2026.04.16 16:35:31 INFO  no build target found for C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker\simple-api\src\main\java\fr\takima\training\simpleapi\SimpleApiApplication.java. Using fallback presentation compiler.
+2026.04.16 16:35:31 INFO  no build target found for C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker\simple-api\src\main\java\fr\takima\training\simpleapi\SimpleApiApplication.java. Using fallback presentation compiler.
+2026.04.16 16:37:27 INFO  no build target found for C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker\simple-api\src\main\java\fr\takima\training\simpleapi\SimpleApiApplication.java. Using fallback presentation compiler.
+avr. 16, 2026 4:37:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 81
+2026.04.16 16:57:49 INFO  Started: Metals version 1.6.7 in folders 'C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker' for client Visual Studio Code 1.115.0.
+2026.04.16 16:57:49 INFO  Memory monitor started
+2026.04.16 16:57:54 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.04.16 16:57:54 INFO  no build target found for C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker\simple-api\src\main\java\fr\takima\training\simpleapi\SimpleApiApplication.java. Using fallback presentation compiler.
+2026.04.16 16:57:57 INFO  no build target found for C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker\simple-api\src\main\java\fr\takima\training\simpleapi\SimpleApiApplication.java. Using fallback presentation compiler.
+2026.04.16 16:57:58 WARN  no build target for: C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker\simple-api\src\main\java\fr\takima\training\simpleapi\SimpleApiApplication.java
+2026.04.16 16:57:58 WARN  Running javac-semanticdb failed for file:///C:/Users/maloc/Desktop/DevOpsTP2/tp-devops-correction-docker/simple-api/src/main/java/fr/takima/training/simpleapi/SimpleApiApplication.java. Output:
+
+2026.04.16 16:57:58 INFO  no build target found for C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker\simple-api\src\main\java\fr\takima\training\simpleapi\SimpleApiApplication.java. Using fallback presentation compiler.
+avr. 16, 2026 4:57:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+2026.04.16 16:57:58 INFO  no build target found for C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker\simple-api\src\main\java\fr\takima\training\simpleapi\SimpleApiApplication.java. Using fallback presentation compiler.
+2026.04.16 16:58:00 INFO  no build target found for C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker\simple-api\src\main\java\fr\takima\training\simpleapi\SimpleApiApplication.java. Using fallback presentation compiler.
+2026.04.16 16:58:15 INFO  no build target found for C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker\simple-api\src\main\java\fr\takima\training\simpleapi\SimpleApiApplication.java. Using fallback presentation compiler.
+2026.04.16 16:58:15 INFO  no build target found for C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker\simple-api\src\main\java\fr\takima\training\simpleapi\SimpleApiApplication.java. Using fallback presentation compiler.
+2026.04.16 16:58:16 INFO  no build target found for C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker\simple-api\src\main\java\fr\takima\training\simpleapi\SimpleApiApplication.java. Using fallback presentation compiler.
+2026.04.16 16:58:17 INFO  no build target found for C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker\simple-api\src\main\java\fr\takima\training\simpleapi\SimpleApiApplication.java. Using fallback presentation compiler.
+2026.04.16 16:58:25 INFO  no build target found for C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker\simple-api\src\main\java\fr\takima\training\simpleapi\SimpleApiApplication.java. Using fallback presentation compiler.
+2026.04.16 16:58:25 INFO  no build target found for C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker\simple-api\src\main\java\fr\takima\training\simpleapi\SimpleApiApplication.java. Using fallback presentation compiler.
+2026.04.16 16:58:27 INFO  no build target found for C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker\simple-api\src\main\java\fr\takima\training\simpleapi\SimpleApiApplication.java. Using fallback presentation compiler.
+2026.04.16 16:58:27 INFO  no build target found for C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker\simple-api\src\main\java\fr\takima\training\simpleapi\SimpleApiApplication.java. Using fallback presentation compiler.
+2026.04.16 16:59:31 INFO  no build target found for C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker\simple-api\src\main\java\fr\takima\training\simpleapi\SimpleApiApplication.java. Using fallback presentation compiler.
+2026.04.23 11:10:14 INFO  Started: Metals version 1.6.7 in folders 'C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker' for client Visual Studio Code 1.116.0.
+2026.04.23 11:10:14 INFO  Memory monitor started
+2026.04.23 11:10:19 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.04.23 11:10:20 WARN  no build target for: C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker\simple-api\src\main\java\fr\takima\training\simpleapi\SimpleApiApplication.java
+2026.04.23 11:10:23 INFO  no build target found for C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker\simple-api\src\main\java\fr\takima\training\simpleapi\SimpleApiApplication.java. Using fallback presentation compiler.
+avr. 23, 2026 11:10:23 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+2026.04.23 11:10:23 INFO  no build target found for C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker\simple-api\src\main\java\fr\takima\training\simpleapi\SimpleApiApplication.java. Using fallback presentation compiler.
+2026.04.23 11:10:23 INFO  no build target found for C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker\simple-api\src\main\java\fr\takima\training\simpleapi\SimpleApiApplication.java. Using fallback presentation compiler.
+2026.04.23 11:10:24 INFO  no build target found for C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker\simple-api\src\main\java\fr\takima\training\simpleapi\SimpleApiApplication.java. Using fallback presentation compiler.
+avr. 23, 2026 11:10:24 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5
+avr. 23, 2026 11:10:24 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7
+avr. 23, 2026 11:10:24 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+avr. 23, 2026 11:10:24 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9
+2026.04.23 11:10:24 INFO  no build target found for C:\Users\maloc\Desktop\DevOpsTP2\tp-devops-correction-docker\simple-api\src\main\java\fr\takima\training\simpleapi\SimpleApiApplication.java. Using fallback presentation compiler.

@@ -1,0 +1,74 @@
+name: Build and Push Docker
+
+on:
+  workflow_run:
+    workflows: ["CI devops 2025"] 
+    types:
+      - completed
+    branches:
+      - main
+      - master
+
+jobs:
+  push-docker-backend:
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Login to DockerHub
+        uses: docker/login-action@v3
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+      - name: Build and push backend
+        uses: docker/build-push-action@v6
+        with:
+          context: ./simple-api
+          tags: |
+            ${{ secrets.DOCKERHUB_USERNAME }}/tp-devops-simple-api:latest
+            ${{ secrets.DOCKERHUB_USERNAME }}/tp-devops-simple-api:${{ github.sha }}
+            ${{ secrets.DOCKERHUB_USERNAME }}/tp-devops-simple-api:${{ github.run_number }}.0
+            ${{ secrets.DOCKERHUB_USERNAME }}/tp-devops-simple-api:${{ github.ref_name }}
+          push: true
+
+  push-docker-database:
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Login to DockerHub
+        uses: docker/login-action@v3
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+      - name: Build and push database
+        uses: docker/build-push-action@v6
+        with:
+          context: ./database
+          tags: |
+            ${{ secrets.DOCKERHUB_USERNAME }}/tp-devops-database:latest
+            ${{ secrets.DOCKERHUB_USERNAME }}/tp-devops-database:${{ github.sha }}
+            ${{ secrets.DOCKERHUB_USERNAME }}/tp-devops-database:${{ github.run_number }}.0
+            ${{ secrets.DOCKERHUB_USERNAME }}/tp-devops-database:${{ github.ref_name }}
+          push: true
+
+  push-docker-httpd:
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Login to DockerHub
+        uses: docker/login-action@v3
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+      - name: Build and push httpd
+        uses: docker/build-push-action@v6
+        with:
+          context: ./http-server
+          tags: |
+            ${{ secrets.DOCKERHUB_USERNAME }}/tp-devops-httpd:latest
+            ${{ secrets.DOCKERHUB_USERNAME }}/tp-devops-httpd:${{ github.sha }}
+            ${{ secrets.DOCKERHUB_USERNAME }}/tp-devops-httpd:${{ github.run_number }}.0
+            ${{ secrets.DOCKERHUB_USERNAME }}/tp-devops-httpd:${{ github.ref_name }}
+          push: true

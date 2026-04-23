@@ -1,0 +1,10 @@
+- name: Run Proxy
+  docker_container:
+    name: proxy
+    image: malocklion/tp-devops-httpd
+    networks:
+      - name: app-network
+    ports:
+      - "80:80"
+
+

@@ -1,0 +1,70 @@
+name: CI devops 2025
+on:
+  push:
+    branches: 
+      - main
+      - master
+      - develop
+  pull_request:
+
+jobs:
+  test-backend:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up JDK 21
+        uses: actions/setup-java@v4
+        with:
+          java-version: '21'
+          distribution: 'temurin'
+      - name: Build and test with Maven
+        run: mvn clean verify --file ./simple-api/pom.xml
+
+  sonar-analysis:
+    needs: test-backend 
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up JDK 21
+        uses: actions/setup-java@v4
+        with:
+          java-version: '21'
+          distribution: 'temurin'
+      - name:  Sonar Analysis
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}   
+        run: |
+          mvn -B verify sonar:sonar \
+          -Dsonar.projectKey=Malocklion_tp-devops-correction-docker \
+          -Dsonar.organization=malocklion \
+          -Dsonar.host.url=https://sonarcloud.io \
+          -Dsonar.token=${{ secrets.SONAR_TOKEN }} \
+          --file ./simple-api/pom.xml
+
+  rollback:
+    needs: [test-backend]
+    if: failure() && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Bot Rollback Logic
+        run: |
+          git config --global user.email "bot@github.com"
+          git config --global user.name "Workflow Bot"
+          # On crée le revert localement sur une nouvelle branche
+          git checkout -b fix/auto-rollback
+          git revert -m 1 HEAD --no-edit
+
+      - name: Create Rollback PR
+        uses: peter-evans/create-pull-request@v5
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: fix/auto-rollback
+          base: main
+          title: "ROLLBACK: Fix main failure"
+          body: "Les tests ont échoué sur main. Cette PR annule le dernier merge automatiquement."
+          delete-branch: true
