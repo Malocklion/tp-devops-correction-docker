@@ -1,8 +1,13 @@
 name: CI/CD Takima
 
 on:
-  push:
-    branches: [ "main" ] 
+  workflow_run:
+    workflows: ["CI devops 2025"] 
+    types:
+      - completed
+    branches:
+      - main
+      - master
 
 jobs:
   deploy:
