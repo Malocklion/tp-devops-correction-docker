@@ -2,6 +2,8 @@
   docker_container:
     name: proxy
     image: malocklion/tp-devops-httpd
+    pull: true
+    recreate: yes
     networks:
       - name: app-network
     ports:
