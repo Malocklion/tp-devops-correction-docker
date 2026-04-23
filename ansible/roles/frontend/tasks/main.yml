@@ -1,7 +1,7 @@
 - name: Run Frontend
   docker_container:
     name: frontend
-    image: malocklion/malocklion/tp-devops-frontend
+    image: malocklion/tp-devops-frontend
     pull: true
     networks:
       - name: app-network
