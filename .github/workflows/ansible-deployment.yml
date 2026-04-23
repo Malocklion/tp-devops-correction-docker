@@ -32,4 +32,5 @@ jobs:
         run: |
           ansible-playbook -i ansible/inventories/setup.yml ansible/playbook.yml \
           -u ${{ secrets.SERVER_USER }} \
-          --private-key ~/.ssh/id_rsa
+          --private-key ~/.ssh/id_rsa \
+          -e "dockerhub_user=${{ secrets.DOCKERHUB_USERNAME }}"

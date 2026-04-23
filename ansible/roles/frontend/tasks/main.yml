@@ -1,7 +1,7 @@
 - name: Run Frontend
   docker_container:
     name: frontend
-    image: "{{ lookup('env', 'DOCKERHUB_USERNAME') }}/tp-devops-frontend:latest"
+    image: malocklion/tp-devops-frontend:latest
     pull: true
     networks:
       - name: app-network
